@@ -37,7 +37,7 @@ alexa-gas-backend/
 ├── alexa/
 |   ├── lambda/ 
 │   |   ├── index.js                   # Handler AWS Lambda
-|   └── skill-interaction_model.json   # Modello di interazione Alexa
+|   └── interaction_model_schema.json  # Modello di interazione Alexa
 ├── gas/
 │   ├── Code.gs                        # Endpoint principale
 │   └── Utility.gs                     # Funzioni di utilità  
@@ -125,7 +125,7 @@ alexa-gas-backend/
 ├── alexa/
 |   ├── lambda/ 
 │   |   ├── index.js                   # AWS Lambda Handler
-|   └── skill-interaction_model.json   # Alexa interaction model
+|   └── interaction_model_schema.json  # Alexa interaction model
 ├── gas/
 │   ├── Code.gs                        # Main endpoint
 │   └── Utility.gs                     # Utility functions
