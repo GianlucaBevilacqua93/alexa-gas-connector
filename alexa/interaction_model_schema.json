@@ -1,0 +1,57 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "skill test",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "SimpleGetIntent",
+                    "slots": [],
+                    "samples": [
+                        "fai una richiesta semplice",
+                        "esegui una richiesta semplice",
+                        "invia una richiesta base",
+                        "make a simple request",
+                        "run a simple request",
+                        "send a basic request"
+                    ]
+                },
+                {
+                    "name": "DataGetIntent",
+                    "slots": [
+                        {
+                            "name": "data",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "invia il dato {data}",
+                        "manda il dato {data}",
+                        "comunica allo script {data}",
+                        "send the data {data}",
+                        "send data {data}",
+                        "tell the script {data}",
+                        "il mio dato è {data}",
+                        "my data is {data}"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
