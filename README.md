@@ -33,7 +33,7 @@ Questo progetto fornisce un'implementazione completa di una **Skill Alexa person
 ### 📦 Struttura del Progetto
 
 ```
-alexa-gas-backend/
+alexa-gas-connector/
 ├── alexa/
 |   ├── lambda/ 
 │   |   ├── index.js                   # Handler AWS Lambda
@@ -121,7 +121,7 @@ This project provides a complete implementation of an **Alexa Custom Skill** tha
 ### 📦 Project Structure
 
 ```
-alexa-gas-backend/
+alexa-gas-connector/
 ├── alexa/
 |   ├── lambda/ 
 │   |   ├── index.js                   # AWS Lambda Handler
