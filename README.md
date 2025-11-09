@@ -101,7 +101,7 @@ const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyfGR6MMHJZeNVF
 
 This project provides a complete implementation of an **Alexa Custom Skill** that communicates with a **Google Apps Script (GAS)** backend through **AWS Lambda**. The architecture is completely serverless.
 
-### 🏗️ System Architecture
+### System Architecture
 
 ```
 ┌─────────────┐      ┌──────────────┐      ┌─────────────┐      ┌──────────────────┐
